@@ -20,3 +20,7 @@ de desenvolvimento
 yarn add ts-node-dev -D
 - Adiciona uma biblioteca que pega o código typescript e converte para
 uma forma que o node entende. Configurar o packgae.json
+
+https://typeorm.io/
+- Instalar o ORM como forma de acesso ao banco de dados, há 3 formas, drivers,
+query builder e ORM.

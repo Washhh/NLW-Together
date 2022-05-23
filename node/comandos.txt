@@ -1,0 +1,22 @@
+yarn init -y
+- Inicia o projeto com o básico
+
+yarn add typescript -D
+- Adiciona o typescript ao projeto
+
+yarn tsc --init
+- Inicia o typescript
+
+yarn tsc
+- Converte o código
+
+yarn add express
+- Adicionando o express ao projeto
+
+yarn add @types/express -D
+- Adicionando a tipagem da biblioteca express como dependência
+de desenvolvimento
+
+yarn add ts-node-dev -D
+- Adiciona uma biblioteca que pega o código typescript e converte para
+uma forma que o node entende. Configurar o packgae.json

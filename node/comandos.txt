@@ -24,3 +24,6 @@ uma forma que o node entende. Configurar o packgae.json
 https://typeorm.io/
 - Instalar o ORM como forma de acesso ao banco de dados, há 3 formas, drivers,
 query builder e ORM.
+
+yarn add express-async-errors
+- Tratar os erros do metodo asynca na lib do express

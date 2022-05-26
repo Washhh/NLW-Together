@@ -27,3 +27,7 @@ query builder e ORM.
 
 yarn add express-async-errors
 - Tratar os erros do metodo asynca na lib do express
+
+yarn add jsonwebtoken
+- Lib para o uso de JWT
+

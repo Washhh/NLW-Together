@@ -31,3 +31,10 @@ yarn add express-async-errors
 yarn add jsonwebtoken
 - Lib para o uso de JWT
 
+yarn add bcryptjs
+- Lib para criptografar as senhas
+
+yarn add class-transformer
+- Lib para expor ou ocultar atributos retornados nas consultas
+
+

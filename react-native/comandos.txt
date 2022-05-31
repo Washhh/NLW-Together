@@ -1,0 +1,2 @@
+expo init "nome do projeto"
+- comando para iniciar um projeto com expo

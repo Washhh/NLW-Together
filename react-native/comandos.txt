@@ -1,2 +1,46 @@
 expo init "nome do projeto"
 - comando para iniciar um projeto com expo
+
+expo install expo-font @expo-google-fonts/'fonte'
+- Instala fonte no projeto, o comando instala o expo-font, que tem como
+uma de suas funcionalidades, instalar as fontes no celular do usuário quando ele
+iniciar a aplicação.
+
+expo install expo-app-loading
+- Por meio dessa lib é possível pegar o AppLoading, o mesmo serve para ajudar
+a manter o componente em loading enquanto algumas dependências são pré-carregadas.
+No projeto vamos usar para esperar que as fontes sejam carregadas, mantendo o app
+na tela de splash.
+
+expo install expo-splash-screen
+- A forma de uso expo-app-loading foi depreciada em algumas versões antigas
+por isso estou usando a recomendação da própria expo.
+
+expo install expo-linear-gradient
+- Componente para utilização de grandientes disponibilizado pela expo
+- Tive alguns problemas com tipagem, pois as versões do meu projeto eram
+diferentes da apresentada em aula, por isso para a tipagem do children eu fiz
+uma pequena mudança para que o componente reconhecesse e aceitasse.
+
+yarn add react-native-iphone-x-helper
+- Lib que contém funcionalidades para ajudar na estilização de iphones
+
+yarn add @react-navigation/native@^5.x
+- Lib para navegação no react native
+
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+- Dependências para usar a navigation com Expo
+
+yarn add @react-navigation/stack@^5.x
+- Lib escolhida como estilo de navegação
+
+yarn add react-native-vector-icons
+- Instalei essa lib devido a problemas com versões do expo, assim não conseguia
+usar os icones disponíveis
+
+yarn add @types/react-native-vector-icons -D
+- Baixando os tipos da lib de icones
+
+yarn add react-native-svg
+- Lib para usar SVG no react native
+

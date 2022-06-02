@@ -1,0 +1,17 @@
+import { RectButton, RectButtonProps } from 'react-native-gesture-handler';
+import Icon from 'react-native-vector-icons/AntDesign'
+
+import { styles } from './styles';
+import { theme } from '../../global/styles/theme';
+
+export const ButtonAdd = ({ ...rest }: RectButtonProps) => {
+  return (
+    <RectButton style={styles.container} {...rest}>
+      <Icon
+        name='plus'
+        color={theme.colors.heading}
+        size={24}
+      />
+    </RectButton>
+  );
+};
